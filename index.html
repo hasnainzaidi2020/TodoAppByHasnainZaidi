@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+</head>
+<body>
+    <h1>Todos</h1>
+    <form id="form">
+    
+        <input type="input" id="input" class="input" autocomplete="off" placeholder="Entre Your Todo">
+       <div class="btn123">
+        <button id="addbtn">Add Todo 
+            <i class="fas fa-plus"></i> 
+        </button> 
+        <button id="dele">Delete Todo <i class="fas fa-trash-alt"></i> </button>
+    </div>
+        <ol class="todo">
+
+        </ol> 
+    </form>
+    <small>
+        Left Click To Toggle completed <br> 
+        Right Click To Delete Todo
+    </small>
+</body>
+<script src="app.js"></script>
+</html>
